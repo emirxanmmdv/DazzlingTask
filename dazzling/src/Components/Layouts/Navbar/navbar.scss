@@ -1,0 +1,50 @@
+.navbar {
+  .container {
+    width: 1170px;
+    margin: 0 auto;
+    .navbarContents {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      .navbarLogo {
+        .logo {
+          color: #1fa67a;
+          font-size: 25px;
+        }
+      }
+      .menuItems {
+        display: flex;
+        .home {
+          background-color: #1fa67a;
+          color: white;
+        }
+        button {
+          outline: none;
+          border: none;
+          background-color: white;
+          color: gray;
+          font-size: 17px;
+          padding: 20px 10px;
+        }
+        button:hover {
+          background-color: #1fa67a;
+          color: white;
+        }
+        .fa-caret-down {
+          color: gray;
+          font-size: 10px;
+        }
+        .fa-caret-down:hover {
+          color: white;
+          font-size: 10px;
+        }
+      }
+    }
+  }
+}
+.aboutBtn{
+  position: relative;
+  top: 0;
+  bottom: 0;
+}
+
